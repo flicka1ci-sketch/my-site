@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom right, #e0f7fa, #f1f8e9);
+    background: linear-gradient(to bottom right, #f0f9ff, #e8f5e9);
     color: #333;
     transition: background 0.5s;
 }
@@ -17,7 +17,7 @@ body {
     padding: 25px;
     background-color: #ffffff;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s, transform 0.3s;
 }
 
@@ -31,7 +31,7 @@ body {
 /* === Заголовок === */
 .site-header h1 {
     text-align: center;
-    color: #0277bd;
+    color: #1e88e5; /* насыщенный, но спокойный синий */
     font-size: 2.2rem;
     margin: 0;
 }
@@ -43,21 +43,21 @@ body {
     margin-bottom: 15px;
 }
 
-/* === Картинки (сохраняем размеры и ширину) === */
+/* === Картинки (не трогаем размеры) === */
 .animal-img {
     display: block;
-    width: auto;           /* ширина зависит от max-width */
-    max-width: 300px;      /* ограничение ширины */
-    height: auto;          /* сохраняем пропорции */
+    width: auto;
+    max-width: 300px;
+    height: auto;
     margin: 15px auto;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .animal-img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    transform: scale(1.07);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
 }
 
 /* === Кнопка === */
@@ -66,7 +66,7 @@ button {
     padding: 12px 25px;
     margin: 20px auto;
     font-size: 1rem;
-    background-color: #0288d1;
+    background-color: #43a047; /* приятный зеленый */
     color: white;
     border: none;
     border-radius: 8px;
@@ -75,7 +75,7 @@ button {
 }
 
 button:hover {
-    background-color: #026ca0;
+    background-color: #2e7d32;
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }

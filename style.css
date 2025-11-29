@@ -20,13 +20,14 @@ body {
 /* Картинки адаптивного размера */
 .animal-img {
   display: block;
-  width: 100%;       /* занимает всю ширину контейнера */
-  max-width: 400px;  /* максимальная ширина */
-  height: auto;      /* автоматическая высота, сохраняет пропорции */
-  margin: 15px 0;
+  width: auto;           /* ширина зависит от max-width */
+  max-width: 300px;      /* ограничение ширины */
+  height: auto;          /* сохраняем пропорции */
+  margin: 15px auto;     /* по центру, сверху и снизу */
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
+
 
 /* Кнопка */
 button {
@@ -49,3 +50,4 @@ button:hover {
   font-size: 0.9em;
   color: #555;
 }
+

@@ -17,18 +17,18 @@ body {
   border-radius: 10px;
 }
 
-/* Картинки животных меньшего размера */
+/* Картинки адаптивного размера */
 .animal-img {
   display: block;
-  width: 100%;           /* картинка занимает всю ширину контейнера */
-  max-width: 300px;      /* уменьшена максимальная ширина */
-  height: 200px;         /* уменьшена высота */
+  width: 100%;       /* занимает всю ширину контейнера */
+  max-width: 400px;  /* максимальная ширина */
+  height: auto;      /* автоматическая высота, сохраняет пропорции */
   margin: 15px 0;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  object-fit: cover;     /* аккуратно обрезает лишнее, сохраняет пропорции */
 }
 
+/* Кнопка */
 button {
   padding: 10px 20px;
   background: #0288d1;
@@ -43,6 +43,7 @@ button:hover {
   background: #026ca0;
 }
 
+/* Футер */
 .site-footer {
   text-align: center;
   font-size: 0.9em;

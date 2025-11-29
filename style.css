@@ -17,13 +17,16 @@ body {
   border-radius: 10px;
 }
 
-/* Стили для картинок животных */
+/* Картинки животных одинакового размера */
 .animal-img {
   display: block;
-  max-width: 100%;
+  width: 100%;           /* картинка занимает всю ширину контейнера */
+  max-width: 400px;      /* ограничение максимальной ширины */
+  height: 250px;         /* фиксированная высота */
   margin: 15px 0;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  object-fit: cover;     /* обрезает лишнее, сохраняет пропорции */
 }
 
 button {

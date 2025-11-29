@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom right, #f0f9ff, #e8f5e9);
+    background: linear-gradient(to bottom right, #e0f2f1, #cfd8dc); /* серо-мятный градиент */
     color: #333;
     transition: background 0.5s;
 }
@@ -31,7 +31,7 @@ body {
 /* === Заголовок === */
 .site-header h1 {
     text-align: center;
-    color: #1e88e5; /* насыщенный, но спокойный синий */
+    color: #00796b; /* насыщенный, но спокойный мятный цвет */
     font-size: 2.2rem;
     margin: 0;
 }
@@ -66,7 +66,7 @@ button {
     padding: 12px 25px;
     margin: 20px auto;
     font-size: 1rem;
-    background-color: #43a047; /* приятный зеленый */
+    background-color: #26a69a; /* мятно-зелёный */
     color: white;
     border: none;
     border-radius: 8px;
@@ -75,7 +75,7 @@ button {
 }
 
 button:hover {
-    background-color: #2e7d32;
+    background-color: #00796b;
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
